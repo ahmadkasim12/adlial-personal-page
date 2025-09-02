@@ -39,7 +39,7 @@ export default function Home() {
         
         <div className="pointer-events-none absolute left-0 right-0 h-8 bg-gradient-to-b from-[#0a0a0a] to-transparent"></div>
         
-        <div className="grid lg:grid-rows-[120px_1fr_120px]">
+        <div className="grid grid-rows-[60px_1fr_60px] lg:grid-rows-[120px_1fr_120px]">
           <div className="row-start-2 grid grid-col items-center gap-6 sm:items-start">
           <div className="grid gap-6 items-center justify-items-center sm:grid-cols-[auto_1fr] sm:justify-items-start">
             {/* <img src={"https://i.pravatar.cc/300"} className="w-[80px] h-[80px] rounded-sm border border-white/50"></img> */}
