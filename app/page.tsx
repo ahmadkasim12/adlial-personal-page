@@ -14,7 +14,7 @@ const data = [
     name: "quiqiNote.g",
     alias: "Personal Note-taking Application",
     description: "Flutter-based note-taking application",
-    link: "https://purrfectbites.rplrus.com/",
+    link: "https://www.linkedin.com/posts/adlialfakhri-ziyadatullah_quiqinoteg-a-simple-note-taking-app-with-activity-7368666828014903296-omdo/",
   },
   {
     id: 3,
