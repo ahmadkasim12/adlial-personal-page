@@ -19,6 +19,37 @@
   }
 }
 
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.hover\:animate-marquee:hover {
+  animation: marquee 5s linear infinite;
+}
+
+@layer utilities {
+  /* Chrome, Safari, and Opera */
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* IE and Edge */
+  .scrollbar-hidden {
+    -ms-overflow-style: none;
+  }
+
+  /* Firefox */
+  .scrollbar-hidden {
+    scrollbar-width: none;
+  }
+}
+
+
 body {
   background: var(--background);
   color: var(--foreground);
