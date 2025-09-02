@@ -96,7 +96,7 @@ export default function Home() {
         </div>
         </div>
 
-        <div className="pointer-events-none absolute bottom-47 left-0 right-0 h-8 bg-gradient-to-t from-[#0a0a0a] to-transparent"></div>
+        {/* <div className="pointer-events-none absolute bottom-47 left-0 right-0 h-8 bg-gradient-to-t from-[#0a0a0a] to-transparent"></div> */}
       </main>
       <footer className="row-start-2 flex flex flex-col items-center justify-center">
         <div className="flex gap-4 items-center">
